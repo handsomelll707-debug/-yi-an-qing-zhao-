@@ -1,0 +1,51 @@
+[
+  {
+    "id": "annotation",
+    "type": "校注本",
+    "title": "《李清照集校注》",
+    "url": "#",
+    "note": "用户提供的校注本 PDF 约 746 MB，因 GitHub 单文件大小限制未随公开网页发布；本地原始项目中保留。"
+  },
+  {
+    "id": "selection",
+    "type": "选本",
+    "title": "《漱玉词》",
+    "url": "assets/documents/《漱玉词》.pdf",
+    "note": "用户提供，10 页。版本信息与收录范围待核。"
+  },
+  {
+    "id": "markdown",
+    "type": "辅助整理",
+    "title": "李清照古诗文网.md",
+    "url": "assets/documents/李清照古诗文网.md",
+    "note": "当前可检索正文的直接录入来源。按原文件保留，存在讹字、节录及归属待核问题；不是已经校定的全集。"
+  },
+  {
+    "id": "image0",
+    "type": "原始图像",
+    "title": "金石录后序图片.jpg",
+    "url": "assets/images/source-0.jpg",
+    "note": "用户提供的资料截图；仅展示该图实际包含的页面，不等同于完整文献。画像不是宋代人物容貌复原。"
+  },
+  {
+    "id": "image1",
+    "type": "原始图像",
+    "title": "金石录后序文本.jpg",
+    "url": "assets/images/source-1.jpg",
+    "note": "用户提供的资料截图；仅展示该图实际包含的页面，不等同于完整文献。画像不是宋代人物容貌复原。"
+  },
+  {
+    "id": "image2",
+    "type": "原始图像",
+    "title": "民国李文椅编的《易安居士年谱》李清照生平年谱.jpg",
+    "url": "assets/images/source-2.jpg",
+    "note": "用户提供的资料截图；仅展示该图实际包含的页面，不等同于完整文献。画像不是宋代人物容貌复原。"
+  },
+  {
+    "id": "image3",
+    "type": "原始图像",
+    "title": "易安居士画像.jpg",
+    "url": "assets/images/source-3.jpg",
+    "note": "用户提供的资料截图；仅展示该图实际包含的页面，不等同于完整文献。画像不是宋代人物容貌复原。"
+  }
+]

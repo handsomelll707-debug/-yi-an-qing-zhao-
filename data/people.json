@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "li",
+      "label": "李清照",
+      "note": "项目中心人物。生平节点与作品年代需要分别核验。",
+      "type": "人物",
+      "source": [
+        "annotation",
+        "image2"
+      ]
+    },
+    {
+      "id": "zhao",
+      "label": "赵明诚",
+      "note": "李清照配偶、共同收藏与校勘者；《金石录》作者。",
+      "type": "人物",
+      "source": [
+        "markdown",
+        "image1"
+      ]
+    },
+    {
+      "id": "father",
+      "label": "李格非",
+      "note": "李清照父亲。相关记载见所供年谱截图；具体履历待校。",
+      "type": "人物",
+      "source": [
+        "image2"
+      ]
+    },
+    {
+      "id": "brother",
+      "label": "李迒",
+      "note": "《金石录后序》提及其弟迒。",
+      "type": "人物",
+      "source": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "xiang",
+      "label": "项羽",
+      "note": "《夏日绝句》的咏写对象；不是李清照的现实交往人物。",
+      "type": "诗中人物",
+      "source": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "jinshi",
+      "label": "金石录后序",
+      "note": "李清照所作，记录收藏、共同生活与散失经历。",
+      "type": "文献",
+      "source": [
+        "markdown",
+        "image0",
+        "image1"
+      ]
+    },
+    {
+      "id": "xia",
+      "label": "夏日绝句",
+      "note": "当前正文来自辅助整理文本，版本与作年待核。",
+      "type": "作品",
+      "source": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "nian",
+      "label": "易安居士年谱",
+      "note": "所供民国年谱截图，仅覆盖部分年谱；不将截图当作完整年谱。",
+      "type": "文献",
+      "source": [
+        "image2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "li",
+      "target": "zhao",
+      "label": "配偶／共同收藏",
+      "evidence": "《金石录后序》“始归赵氏”“同共勘校”等。",
+      "sources": [
+        "markdown",
+        "image1"
+      ]
+    },
+    {
+      "id": "e2",
+      "source": "li",
+      "target": "father",
+      "label": "父女",
+      "evidence": "所供年谱截图。",
+      "sources": [
+        "image2"
+      ]
+    },
+    {
+      "id": "e3",
+      "source": "li",
+      "target": "brother",
+      "label": "姊弟",
+      "evidence": "《后序》“有弟迒任敕局删定官”。",
+      "sources": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "e4",
+      "source": "li",
+      "target": "jinshi",
+      "label": "撰写",
+      "evidence": "《后序》末署“易安室题”。",
+      "sources": [
+        "markdown",
+        "image1"
+      ]
+    },
+    {
+      "id": "e5",
+      "source": "zhao",
+      "target": "jinshi",
+      "label": "被记述",
+      "evidence": "《后序》叙述赵明诚生平与收藏。",
+      "sources": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "e6",
+      "source": "li",
+      "target": "xia",
+      "label": "署名作者",
+      "evidence": "所供作品整理文件，待校注本复核。",
+      "sources": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "e7",
+      "source": "xia",
+      "target": "xiang",
+      "label": "咏写",
+      "evidence": "“至今思项羽”。不表示交游关系。",
+      "sources": [
+        "markdown"
+      ]
+    },
+    {
+      "id": "e8",
+      "source": "nian",
+      "target": "li",
+      "label": "记述生平",
+      "evidence": "所供年谱图像。",
+      "sources": [
+        "image2"
+      ]
+    }
+  ]
+}
