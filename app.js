@@ -4,7 +4,7 @@
 const $=s=>document.querySelector(s), main=$('#main'), modal=$('#modal'), body=$('#modal-body');
 if(!main||!modal||!body)return;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const safePath=p=>typeof p==='string'&&/^(assets|ontology|data)\//.test(p)&&!p.includes('..')?p:'#';
+const safePath=p=>typeof p==='string'&&((/^(assets|ontology|data)\//.test(p)&&!p.includes('..'))||/^https:\/\/pan\.quark\.cn\/s\/[A-Za-z0-9]+/.test(p))?p:'#';
 let D={},view='home',chapter=0,line=0,timer=null,toastTimer=null,lastWheel=0,scrollChapters=false,audioOn=false,ctx=null,noise=null,noiseGain=null,returnFocus=null;
 let state={favorites:[],completed:[],positions:{},chapter:0,note:''};
 try{const s=JSON.parse(localStorage.getItem('qingzhao-v2')||'null');if(s&&typeof s==='object'){state.favorites=Array.isArray(s.favorites)?s.favorites.filter(x=>typeof x==='string'):[];state.completed=Array.isArray(s.completed)?s.completed.filter(x=>Number.isInteger(x)&&x>=0&&x<6):[];state.positions=s.positions&&typeof s.positions==='object'?s.positions:{};state.chapter=Number.isInteger(s.chapter)&&s.chapter>=0&&s.chapter<6?s.chapter:0;state.note=typeof s.note==='string'?s.note:'';}}catch{}
